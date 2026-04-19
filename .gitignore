@@ -1,0 +1,42 @@
+# --- React / Node.js (Frontend & Express) ---
+node_modules/
+dist/
+build/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Flask / Python (AI Bridge) ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv
+instance/
+.pytest_cache/
+.flaskenv
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Optional: If you want to keep notebooks but not the large output data
+# *.nbconvert.ipynb
+
+# --- AI Models & Large Data ---
+# Models can be large; usually, we keep the .keras file but ignore checkpoints
+*.h5
+*.model
+# *.keras  <-- Uncomment this only if your model is >100MB
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
