@@ -45,4 +45,4 @@ def predict():
 
 if __name__ == '__main__':
     # Running on port 5000 as requested
-    app.run(port=5000, debug=True)
+    app.run(port=5000, debug=True, use_reloader=False)
